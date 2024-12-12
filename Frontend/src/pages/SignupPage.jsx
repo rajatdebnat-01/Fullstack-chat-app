@@ -44,8 +44,8 @@ const SignupPage = () => {
     return (
         <div className="h-screen overflow-y-hidden grid lg:grid-cols-2">
             {/* left side of window */}
-            <div className="flex flex-col justify-start items-center h-fit sm:pt-20 sm:px-10 ">
-                <div className="w-full max-w-md space-y-8">
+            <div className="flex flex-col justify-start items-center h-fit pt-5 mt-10 ">
+                <div className="w-full max-w-md space-y-8 px-5">
 
                     {/* logo */}
 
@@ -135,7 +135,7 @@ const SignupPage = () => {
                         </button>
 
                     </form>
-                    <div className="text-center pb-0 pt-0 h-2">
+                    <div className="text-center pb-0 pt-0 h-2 mb-11">
                         <p className="text-base-content/60">
                             Already have an account?{" "}
                             <Link to="/login" className="link link-primary">
