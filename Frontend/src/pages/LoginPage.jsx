@@ -20,7 +20,7 @@ const LoginPage = () => {
   }
   return (
 
-    <div className="h-auto sm:h-screen grid lg:grid-cols-2">
+    <div className="h-screen overflow-y-hidden  grid lg:grid-cols-2">
       {/* left side of window */}
       <div className="flex flex-col justify-around items-center h-fit sm:pt-20  sm:px-10 ">
         <div className="w-full max-w-md space-y-8">
